@@ -1,0 +1,384 @@
+html, body {
+	height:100%;
+	width:100%;
+}
+body {
+	color:#24262D;
+	width:100%;
+}
+#Wrapper {
+	height: auto !important;
+	margin: 0 auto -50px;
+	min-height: 100%;
+}
+
+.line {
+	border-bottom:1px solid #ccc;
+	margin:20px 0;
+}
+.line:last-child {
+	border-bottom:0 none;
+	margin:0;
+}
+.imgLeft {
+	display:block;
+	float:right;
+	position:relative;
+}
+
+#header {
+	display:block;
+	height:150px;
+	background-color:#000;
+}
+
+.logo {
+	display:block;
+	float:left;
+	position: relative;
+	top: 40px;
+}
+.logo a {
+	outline:none;
+	text-decoration:none;
+	color:#fff;
+	font-size:35px;
+	font-weight:lighter;
+}
+.logo p.tagline {
+	color:#ccc;
+	font-weight:lighter;
+}
+
+#menu {
+	float:right;
+	display:block;
+	position:relative;
+}
+#menu ul {
+	display:block;
+	list-style:none;
+}
+#menu ul.top-menu {
+	float:right;
+	margin-top:15px;
+}
+#menu ul.top-menu li a {
+	font-size:14px;
+	font-weight:lighter;
+}
+#menu ul.main-menu {
+	float:right;
+	margin-top:48px;
+}
+#menu ul.main-menu li {
+	margin-left:20px;
+}
+#menu ul.main-menu li a {
+	padding:5px 8px;
+}
+#menu ul.main-menu li a:hover,
+#menu ul.main-menu li.current a,
+#menu ul.main-menu li.section a {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #000000;
+    text-decoration: none;
+}
+#menu ul.main-menu li.current a:hover,
+#menu ul.main-menu li.section a:hover {
+	opacity:0.85;
+}
+#menu ul li {
+	float:left;
+}
+#menu ul li a {
+	font-size:17px;
+	color:#FFF;
+	text-decoration:none;
+	outline:none;
+}
+#menu ul li a:hover, #menu ul li.current a, #menu ul li.section a {
+	color:#FFF;
+	text-decoration:underline;
+	background:none;
+}
+
+#search {
+	display:block;
+	position:relative;
+	float:right;
+}
+#search .search-text {
+	height:15px;
+	width:150px;
+	padding:5px;
+	color:#666;
+	font-size:14px;
+}
+#search .search-button {
+	height:30px;
+	padding:5px;
+	font-weight:bold;
+}
+
+.midcontent {
+    display: block;
+    overflow: hidden;
+    padding: 20px 0;
+	margin:10px auto;
+	min-height:400px;
+}
+.midcontent h1 {
+	line-height:25px;
+	letter-spacing:1px;
+	margin-bottom:40px;
+}
+
+#sidebar {
+	float:left;
+	border-left:1px solid #ccc;
+	padding-left:15px;
+}
+#sidebar ul.subnav, #sidebar ul.newslist {
+	list-style:none;
+	margin:0;
+}
+#sidebar ul.subnav li, #sidebar ul.newslist li {
+	margin:0 0 10px;
+	border-bottom:1px solid #ccc;
+}
+#sidebar ul.subnav li:last-child, #sidebar ul.newslist li:last-child {
+	margin:0;
+	border-bottom:0 none;
+} 
+#sidebar ul.newslist li h5 {
+	margin:0 0 10px;
+	line-height:18px;
+	padding:5px;
+}
+#sidebar ul.newslist li h5:hover,
+#sidebar ul.newslist li.current h5,
+#sidebar ul.newslist li.section h5 {
+	background:#EDEDED;
+}
+#sidebar ul.subnav li a, #sidebar ul.newslist li h5 a {
+	color:#000;
+	text-decoration:none;
+	outline:none;
+	font-size:15px;
+}
+#sidebar ul.subnav li a:hover, #sidebar ul.newslist li h5 a:hover {
+	text-decoration:underline;
+}
+#sidebar a.img {
+	outline:none;
+}
+#sidebar a.img img:hover {
+	opacity:0.75;
+}
+
+.item-details {
+	margin-top:10px;
+	margin-bottom:5px;
+	display:block;
+	overflow:hidden;
+}
+.category a {
+	float:left;
+	text-decoration:none;
+	outline:none;
+	text-transform:uppercase;
+	font-size:10px;
+	color:#000;
+	font-weight:bold;
+}
+.category a:hover {
+	text-decoration:underline;
+}
+.date {
+	color:#ccc;
+	float:right;
+	font-size:10px;
+	font-weight:bold;
+}
+
+.content {
+	display:block;
+	overflow:hidden;
+}
+.content h2 {
+	line-height:23px;
+	margin-bottom:10px;
+	font-weight:lighter;
+	letter-spacing:2px;
+}
+.content p {
+	margin:0;
+	padding-bottom:5px;
+}
+
+.content ul {
+	margin-left:20px;
+}
+.content ul li {
+	margin:0;
+}
+.content a.galleryPhoto {
+	outline:none;
+}
+.content a.galleryPhoto img {
+	outline:none;
+	cursor:pointer;
+}
+
+.content form fieldset input.text {
+	width:250px;
+	height:20px;
+}
+.content form .Actions input {
+	margin-bottom:10px;
+}
+.content form .Actions p {
+	margin:0;
+}
+.content form .Actions p a {
+	color:#961227;
+	text-decoration:none;
+	outline:none;
+}
+.content form .Actions p a:hover {
+	text-decoration:underline;
+}
+
+.spliter {
+	border-bottom:1px solid #ccc;
+	margin-bottom:10px;
+}
+.box {
+	display:block;
+	float:left;
+	margin-bottom:5px;
+	padding-bottom:5px;
+}
+.box a {
+	outline:none;
+}
+.box a img {
+	outline:none;
+	margin-bottom:5px;
+}
+.box a img:hover {
+	opacity:0.75;
+}
+.box h1, .box h3 {
+	margin:0;
+	line-height:18px;
+	padding-bottom:15px;
+}
+.box h1 a, .box h3 a {
+	text-decoration:none;
+	outline:none;
+	font-size:18px;
+	color:#000;
+}
+.box h1 a:hover, .box h3 a:hover {
+	text-decoration:underline;
+}
+.box p {
+	padding:0;
+	margin:0;
+	font-size:13px;
+}
+
+.contactDetails form fieldset {
+	margin:0;
+	padding-bottom:10px;
+}
+.contactDetails form fieldset .field {
+	margin-bottom:10px;
+	padding:10px;
+	background:#e5e5e5;
+	width:75%;
+}
+.contactDetails form fieldset .field label {
+	color:#333;
+}
+.contactDetails form fieldset input.text {
+	width:275px;
+	height:20px;
+}
+.contactDetails form fieldset textarea {
+	width:278px;
+	height:150px;
+}
+.contactDetails form .Actions {
+	padding-bottom:10px;
+}
+span.message.required {
+	color:red;
+	font-size:11px;
+	margin-top:-3px;
+}
+
+.map {
+	display:block;
+}
+.map iframe {
+	background:#ccc;
+	padding:5px;
+}
+.map small a {
+	outline:none;
+	text-decoration:none;
+	color:#000;
+}
+.map small a:hover {
+	color:#FFA41E;
+}
+
+#footer, .push {
+	height:50px;
+}
+#footer {
+	display:block;
+	background-color:#000;
+}
+#footer .copyright {
+	display:block;
+	position:relative;
+	top:18px;
+}
+#footer .copyright p.floatleft {
+	color:#FFF;
+	font-size:11px;
+	margin:0;
+	float:right;
+	text-align:right;
+}
+
+#footer .links {
+	float:left;
+	display:block;
+	position:relative;
+	top:15px;
+}
+#footer .links ul {
+	list-style:none;
+	margin:0;
+}
+#footer .links ul li {
+	float:left;
+	margin:0;
+	padding-right:30px;
+}
+#footer .links ul li a {
+	color:#FFF;
+	text-decoration:none;
+	outline:none;
+	font-size:12px;
+}
+#footer .links ul li a:hover, #footer .links ul li.current a, #footer .links ul li.section a {
+	color:#fff;
+	text-decoration:underline;
+	background:none;
+}

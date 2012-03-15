@@ -1,0 +1,1 @@
+<title><% if MetaTitle %>$MetaTitle<% else_if ClassName = HomePage %>$SiteConfig.Tagline<% else %>$Title<% end_if %><% if Level(2) %> - $Parent.Title<% end_if %><% if Level(3) %> - $Parent.Parent.Title<% end_if %> - $SiteConfig.Title</title>
